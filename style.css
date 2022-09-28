@@ -1,14 +1,32 @@
 body {
+    color:dimgrey;
+    background-image: url(imagem.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
+
 main#container {
+    color: black;
+    background-color: rgba(245, 245, 220, 0.281);
+    
 }
 
 h1.titulo {
+    font-family:serif;
+    font-weight: bold;
+    font-size: 40px;
+   
 }
 
 p.frase {
+    font-style:inherit;
+    font-size: 30px;
 }
 
 p.autor {
+    font-style:initial;
+    font-size: 20px;
 }
